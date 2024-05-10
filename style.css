@@ -1,0 +1,61 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Cart Item Styles */
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .cart-item-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-item-info h3 {
+    margin: 0;
+    margin-right: 10px;
+  }
+  
+  .cart-item-price {
+    font-weight: bold;
+  }
+  
+  .cart-item-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-item-actions button {
+    margin-right: 5px;
+  }
+  
+  .cart-item-actions .like-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .cart-item-actions .like-btn.liked {
+    color: red;
+  }
+  
+  #total-price {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: right;
+  }
+  
